@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F052300527FCD55F003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052300427FCD55F003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034App.swift */; };
+		F052300727FCD55F003F0AC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052300627FCD55F003F0AC2 /* ContentView.swift */; };
+		F052300927FCD561003F0AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F052300827FCD561003F0AC2 /* Assets.xcassets */; };
+		F052300C27FCD561003F0AC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F052300B27FCD561003F0AC2 /* Preview Assets.xcassets */; };
+		F052301627FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052301527FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034Tests.swift */; };
+		F052302027FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052301F27FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITests.swift */; };
+		F052302227FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052302127FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F052301227FCD561003F0AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0522FF927FCD55F003F0AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F052300027FCD55F003F0AC2;
+			remoteInfo = "COLOMBO-BSCCOMP-PT-202-0034";
+		};
+		F052301C27FCD561003F0AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0522FF927FCD55F003F0AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F052300027FCD55F003F0AC2;
+			remoteInfo = "COLOMBO-BSCCOMP-PT-202-0034";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F052300127FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COLOMBO-BSCCOMP-PT-202-0034.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F052300427FCD55F003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_202_0034App.swift; sourceTree = "<group>"; };
+		F052300627FCD55F003F0AC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F052300827FCD561003F0AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F052300B27FCD561003F0AC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F052301127FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COLOMBO-BSCCOMP-PT-202-0034Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F052301527FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_202_0034Tests.swift; sourceTree = "<group>"; };
+		F052301B27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COLOMBO-BSCCOMP-PT-202-0034UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F052301F27FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_202_0034UITests.swift; sourceTree = "<group>"; };
+		F052302127FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0522FFE27FCD55F003F0AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052300E27FCD561003F0AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052301827FCD561003F0AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0522FF827FCD55F003F0AC2 = {
+			isa = PBXGroup;
+			children = (
+				F052300327FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */,
+				F052301427FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests */,
+				F052301E27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests */,
+				F052300227FCD55F003F0AC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F052300227FCD55F003F0AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F052300127FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034.app */,
+				F052301127FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests.xctest */,
+				F052301B27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F052300327FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */ = {
+			isa = PBXGroup;
+			children = (
+				F052300427FCD55F003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034App.swift */,
+				F052300627FCD55F003F0AC2 /* ContentView.swift */,
+				F052300827FCD561003F0AC2 /* Assets.xcassets */,
+				F052300A27FCD561003F0AC2 /* Preview Content */,
+			);
+			path = "COLOMBO-BSCCOMP-PT-202-0034";
+			sourceTree = "<group>";
+		};
+		F052300A27FCD561003F0AC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F052300B27FCD561003F0AC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F052301427FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F052301527FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034Tests.swift */,
+			);
+			path = "COLOMBO-BSCCOMP-PT-202-0034Tests";
+			sourceTree = "<group>";
+		};
+		F052301E27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F052301F27FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITests.swift */,
+				F052302127FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift */,
+			);
+			path = "COLOMBO-BSCCOMP-PT-202-0034UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F052300027FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F052302527FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034" */;
+			buildPhases = (
+				F0522FFD27FCD55F003F0AC2 /* Sources */,
+				F0522FFE27FCD55F003F0AC2 /* Frameworks */,
+				F0522FFF27FCD55F003F0AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COLOMBO-BSCCOMP-PT-202-0034";
+			productName = "COLOMBO-BSCCOMP-PT-202-0034";
+			productReference = F052300127FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F052301027FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F052302827FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034Tests" */;
+			buildPhases = (
+				F052300D27FCD561003F0AC2 /* Sources */,
+				F052300E27FCD561003F0AC2 /* Frameworks */,
+				F052300F27FCD561003F0AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F052301327FCD561003F0AC2 /* PBXTargetDependency */,
+			);
+			name = "COLOMBO-BSCCOMP-PT-202-0034Tests";
+			productName = "COLOMBO-BSCCOMP-PT-202-0034Tests";
+			productReference = F052301127FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F052301A27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F052302B27FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034UITests" */;
+			buildPhases = (
+				F052301727FCD561003F0AC2 /* Sources */,
+				F052301827FCD561003F0AC2 /* Frameworks */,
+				F052301927FCD561003F0AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F052301D27FCD561003F0AC2 /* PBXTargetDependency */,
+			);
+			name = "COLOMBO-BSCCOMP-PT-202-0034UITests";
+			productName = "COLOMBO-BSCCOMP-PT-202-0034UITests";
+			productReference = F052301B27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0522FF927FCD55F003F0AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F052300027FCD55F003F0AC2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F052301027FCD561003F0AC2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F052300027FCD55F003F0AC2;
+					};
+					F052301A27FCD561003F0AC2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F052300027FCD55F003F0AC2;
+					};
+				};
+			};
+			buildConfigurationList = F0522FFC27FCD55F003F0AC2 /* Build configuration list for PBXProject "COLOMBO-BSCCOMP-PT-202-0034" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0522FF827FCD55F003F0AC2;
+			productRefGroup = F052300227FCD55F003F0AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F052300027FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */,
+				F052301027FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034Tests */,
+				F052301A27FCD561003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0522FFF27FCD55F003F0AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F052300C27FCD561003F0AC2 /* Preview Assets.xcassets in Resources */,
+				F052300927FCD561003F0AC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052300F27FCD561003F0AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052301927FCD561003F0AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0522FFD27FCD55F003F0AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F052300727FCD55F003F0AC2 /* ContentView.swift in Sources */,
+				F052300527FCD55F003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052300D27FCD561003F0AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F052301627FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052301727FCD561003F0AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F052302227FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITestsLaunchTests.swift in Sources */,
+				F052302027FCD561003F0AC2 /* COLOMBO_BSCCOMP_PT_202_0034UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F052301327FCD561003F0AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F052300027FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */;
+			targetProxy = F052301227FCD561003F0AC2 /* PBXContainerItemProxy */;
+		};
+		F052301D27FCD561003F0AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F052300027FCD55F003F0AC2 /* COLOMBO-BSCCOMP-PT-202-0034 */;
+			targetProxy = F052301C27FCD561003F0AC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F052302327FCD561003F0AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F052302427FCD561003F0AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F052302627FCD561003F0AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"COLOMBO-BSCCOMP-PT-202-0034/Preview Content\"";
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F052302727FCD561003F0AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"COLOMBO-BSCCOMP-PT-202-0034/Preview Content\"";
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F052302927FCD561003F0AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COLOMBO-BSCCOMP-PT-202-0034.app/COLOMBO-BSCCOMP-PT-202-0034";
+			};
+			name = Debug;
+		};
+		F052302A27FCD561003F0AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COLOMBO-BSCCOMP-PT-202-0034.app/COLOMBO-BSCCOMP-PT-202-0034";
+			};
+			name = Release;
+		};
+		F052302C27FCD561003F0AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COLOMBO-BSCCOMP-PT-202-0034";
+			};
+			name = Debug;
+		};
+		F052302D27FCD561003F0AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56J8QW2T8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NIBM.COLOMBO-BSCCOMP-PT-202-0034UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COLOMBO-BSCCOMP-PT-202-0034";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0522FFC27FCD55F003F0AC2 /* Build configuration list for PBXProject "COLOMBO-BSCCOMP-PT-202-0034" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F052302327FCD561003F0AC2 /* Debug */,
+				F052302427FCD561003F0AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F052302527FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F052302627FCD561003F0AC2 /* Debug */,
+				F052302727FCD561003F0AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F052302827FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F052302927FCD561003F0AC2 /* Debug */,
+				F052302A27FCD561003F0AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F052302B27FCD561003F0AC2 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-202-0034UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F052302C27FCD561003F0AC2 /* Debug */,
+				F052302D27FCD561003F0AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0522FF927FCD55F003F0AC2 /* Project object */;
+}
